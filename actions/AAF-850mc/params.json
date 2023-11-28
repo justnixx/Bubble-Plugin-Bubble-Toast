@@ -1,0 +1,86 @@
+{
+    "category": "plugins",
+    "display": "Show a Toast",
+    "fields": {
+        "AAG": {
+            "caption": "Type",
+            "default_val": "info",
+            "doc": "Choose a toast type.",
+            "editor": "Dropdown",
+            "name": "toast_type",
+            "optional": false,
+            "options": "success,info,warning,error",
+            "rank": 3
+        },
+        "AAI": {
+            "caption": "Title",
+            "default_val": "",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Message",
+            "default_val": "Message.",
+            "doc": "",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "message",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Position",
+            "default_val": "Top Right",
+            "doc": "Choose the toast's display position on the page.",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "Top Right,Bottom Right,Bottom Left,Top Left,Top Center,Bottom Center,Top Full Width,Bottom Full Width ",
+            "rank": 4
+        },
+        "AAL": {
+            "caption": "Timeout",
+            "doc": "Set the duration for the toast to be displayed without requiring any user interaction.",
+            "editor": "DynamicValue",
+            "name": "timeout",
+            "optional": true,
+            "rank": 5,
+            "value": "number"
+        },
+        "AAZ": {
+            "caption": "Sound",
+            "default_val": "Yes",
+            "doc": "Play a sound?",
+            "editor": "Dropdown",
+            "name": "play_sound",
+            "options": "Yes,No",
+            "rank": 6
+        },
+        "AAa": {
+            "caption": "Show Progress Bar",
+            "default_val": true,
+            "doc": "Show a progress bar?",
+            "editor": "Checkbox",
+            "name": "progress_bar",
+            "rank": 7
+        },
+        "AAn": {
+            "caption": "Prevent Duplicates",
+            "default_val": false,
+            "doc": "To prevent duplicate toasts, enable the preventDuplicates property and match identical messages with the previous toast before displaying them.",
+            "editor": "Checkbox",
+            "name": "prevent_duplicates",
+            "rank": 8
+        },
+        "AAr": {
+            "caption": "More plugins 👉  nixx.dev",
+            "editor": "Label",
+            "name": "i",
+            "rank": 0
+        }
+    },
+    "type": "client_side"
+}
