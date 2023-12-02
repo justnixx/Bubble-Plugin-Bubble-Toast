@@ -7,11 +7,11 @@
         "4": "small business"
     },
     "demo_page": "https://nxd.bubbleapps.io/version-test/bubbletoast",
-    "description": "The finest toast notification plugin you'll find on bubble.io. \n\n\nKey Features:\n\n\t- Seamless User Experience\n\n\t- Tailwind CSS Styling\n\n\t- Unleash Creativity with Customization\n\n\t- Flexible Positioning\n\n\t- BBCode Formatting Support\n\n\t- Progress Bar\n\n\t- Expressive Emoji and HTML Support\n\n\t- Notification Sound\n\n\nDemo:\n\n\thttps://nxd.bubbleapps.io/version-test/bubbletoast",
-    "image": "//meta-l.cdn.bubble.io/f1690049489307x107378227133231310/Bubble%20Toast.png",
+    "description": "The finest toast notification plugin you'll find on bubble.io. \n\nKey Features:\n\n\t- Seamless User Experience\n\t\n\t-  Lightweight (Zero-dependency)\n\n\t- Flexible Positioning\n\n\t- Basic BBCode Formatting Support\n\n\t- Progress Bar\n\n\t- Notification Sound\n\nActions:\n\n\tToast\n\nDemo:\n\n\thttps://nxd.bubbleapps.io/version-test/bubbletoast\n\nSupport:\n \t\n\thello@nixx.dev\n\nNeed a plugin? say 👉  hello@nixx.dev",
+    "image": "//meta-q.cdn.bubble.io/f1701542919169x967959402258879100/nx_toast.gif",
     "license": "open_source",
     "link": "https://nixx.dev",
     "name": "Bubble Toast",
-    "plugin_instructions": "Step-by-Step Guide:\n\n\t1. Navigate to the \"Workflow\" tab in your bubble.io project.\n\n\t2. Click on \"Add an Event\" to select the trigger that will activate the toast notification.\n\n\t3. After choosing the desired event, click on \"Add an Action\" to specify what should happen when the event occurs.\n\n\t4. In the action options, locate and select \"Show a Toast\" from the available actions.\n\n\t5. Once you've selected \"Show a Toast,\" you can customize the content, appearance, and behavior of the toast notification according to your preferences.\n\n\t6. Optionally, you can set the background color, text color, and position of the toast notification to match your application's design.",
+    "plugin_instructions": "1. Navigate to the \"Workflow\" tab in your bubble.io project.\n\n2. Click on \"Add an Event\" to choose the trigger that will activate the toast notification.\n\n3. After selecting the desired event, click on \"Add an Action\" to specify what should happen when the event occurs.\n\n4. In the action options, locate and select \"Toast\" from the available actions under \"Plugins\" or simply type \"Toast\" in the search box.\n\n5. Once you've chosen \"Toast,\" customize the content, appearance, and behavior of the toast notification according to your preferences.\n\n6. Optionally, set the background color, text color, and position of the toast notification to match your application's design.",
     "sa_node_version": 18
 }

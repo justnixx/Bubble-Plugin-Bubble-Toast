@@ -1,66 +1,28 @@
 {
     "assets": {
-        "AAY": {
-            "name": "noti2",
-            "url": "//dd7tel2830j4w.cloudfront.net/f1663854581689x804563806938988900/noti2.mp3"
+        "AAu": {
+            "name": "BubbleToast-js",
+            "url": "//meta-q.cdn.bubble.io/f1701534224542x271516281432448320/bubbletoast.umd.cjs"
         },
-        "AAl": {
-            "name": "toastr-js",
-            "url": "//meta-l.cdn.bubble.io/f1690012919503x122764297385193900/toastr.min.js"
+        "ABN": {
+            "name": "iPhone",
+            "url": "//meta-q.cdn.bubble.io/f1701539818439x962431130748698100/iphone_sound.mp3"
         },
-        "AAm": {
-            "name": "toastr-css",
-            "url": "//meta-l.cdn.bubble.io/f1690012936746x759786872627768800/toastr.min.css"
+        "ABO": {
+            "name": "Notification",
+            "url": "//meta-q.cdn.bubble.io/f1701539833296x836213152712418800/notification.mp3"
         },
-        "AAo": {
-            "name": "custom-css",
-            "url": "//meta-l.cdn.bubble.io/f1690048299264x341902224915948500/custom.min.css"
+        "ABP": {
+            "name": "Yes",
+            "url": "//meta-q.cdn.bubble.io/f1701539849788x808105898544384300/yes.mp3"
         },
-        "AAp": {
-            "name": "fa-icon",
-            "url": "//meta-l.cdn.bubble.io/f1690048391718x843509373655779100/all.min.css"
+        "ABQ": {
+            "name": "BubbleToast-css",
+            "url": "//meta-q.cdn.bubble.io/f1701542243915x134838933989418480/bubbletoast.css"
         }
     },
     "dependencies": {
         "plugin_api_version": "4",
-        "use_jquery": true
-    },
-    "shared_keys": {
-        "AAb": {
-            "caption": "Info_BG_Color",
-            "type": "client_safe"
-        },
-        "AAc": {
-            "caption": "Info_TXT_Color",
-            "type": "client_safe"
-        },
-        "AAd": {
-            "caption": "Warning_BG_Color",
-            "type": "client_safe"
-        },
-        "AAe": {
-            "caption": "Warning_TXT_Color",
-            "type": "client_safe"
-        },
-        "AAf": {
-            "caption": "Error_BG_Color",
-            "type": "client_safe"
-        },
-        "AAg": {
-            "caption": "Error_TXT_Color",
-            "type": "client_safe"
-        },
-        "AAh": {
-            "caption": "Success_BG_Color",
-            "type": "client_safe"
-        },
-        "AAi": {
-            "caption": "Success_TXT_Color",
-            "type": "client_safe"
-        },
-        "AAj": {
-            "caption": "Timeout",
-            "type": "client_safe"
-        }
+        "use_jquery": false
     }
 }

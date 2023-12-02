@@ -1,0 +1,134 @@
+{
+    "category": "plugins",
+    "display": "Toast",
+    "fields": {
+        "AAv": {
+            "caption": "Position",
+            "default_val": "Top-right",
+            "editor": "Dropdown",
+            "name": "position",
+            "options": "Top-right,Top-left,Top-center,Bottom-right,Bottom-left,Bottom-center,Top-full,Bottom-full",
+            "rank": 4
+        },
+        "AAw": {
+            "caption": "Type",
+            "editor": "Dropdown",
+            "name": "type",
+            "optional": true,
+            "options": "Error,Warning,Info,Success",
+            "rank": 5
+        },
+        "AAy": {
+            "caption": "Auto Close",
+            "default_val": 5000,
+            "editor": "DynamicValue",
+            "name": "auto_close",
+            "rank": 6,
+            "value": "number"
+        },
+        "AAz": {
+            "caption": "Can Close",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "can_close",
+            "rank": 7,
+            "value": "boolean"
+        },
+        "ABA": {
+            "caption": "Show Progress",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "show_progress",
+            "rank": 8,
+            "value": "boolean"
+        },
+        "ABB": {
+            "caption": "Pause On Hover",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "pause_on_hover",
+            "rank": 9,
+            "value": "boolean"
+        },
+        "ABC": {
+            "caption": "Title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "ABD": {
+            "caption": "Message",
+            "editor": "DynamicValue",
+            "name": "message",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABE": {
+            "caption": "Prevent Duplicates",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "prevent_duplicates",
+            "rank": 10,
+            "value": "boolean"
+        },
+        "ABF": {
+            "caption": "⚙️ Behavioural  Settings",
+            "editor": "Label",
+            "name": "behavioural__settings",
+            "rank": 3
+        },
+        "ABG": {
+            "caption": "🌈  Color Settings",
+            "editor": "Label",
+            "name": "color_settings",
+            "rank": 11
+        },
+        "ABH": {
+            "caption": "Color",
+            "editor": "DynamicValue",
+            "name": "color",
+            "optional": true,
+            "rank": 12,
+            "value": "text"
+        },
+        "ABI": {
+            "caption": "Text Color",
+            "editor": "DynamicValue",
+            "name": "text_color",
+            "optional": true,
+            "rank": 13,
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "More plugins? 👉 nixx.dev",
+            "editor": "Label",
+            "name": "i",
+            "rank": 0
+        },
+        "ABK": {
+            "caption": "Progress Color",
+            "editor": "DynamicValue",
+            "name": "progress_color",
+            "optional": true,
+            "rank": 14,
+            "value": "text"
+        },
+        "ABL": {
+            "caption": "🔔 Sound Settings ",
+            "editor": "Label",
+            "name": "notification_sound_settings",
+            "rank": 15
+        },
+        "ABM": {
+            "caption": "Notification Sound",
+            "editor": "Dropdown",
+            "name": "notification_sound",
+            "optional": true,
+            "options": "Iphone,Notification,Yes",
+            "rank": 16
+        }
+    },
+    "type": "client_side"
+}
