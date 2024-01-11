@@ -62,6 +62,7 @@
             "caption": "Message",
             "editor": "DynamicValue",
             "name": "message",
+            "optional": true,
             "rank": 2,
             "value": "text"
         },
